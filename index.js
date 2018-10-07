@@ -7,10 +7,10 @@ module.exports = function stringShuffle(string){
     var temp = 0
 
     for( var i = 0; i < strLength-1; i++){
-        if(stri.length!=1){
-            a = stri.charAt(temp)
+        if(string.length!=1){
+            a = string.charAt(temp)
             temp = temp+1
-            b = stri.charAt(temp)
+            b = string.charAt(temp)
             temp = temp+1
             if(b.concat(a))
                 set.push(b.concat(a))
